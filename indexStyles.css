@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+}
+.links {
+  display: flex;
+
+}
+
+.links a {
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+
+.links a:hover {
+  background-color: #e0e0e0;
+  
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.poster {
+  width: 40%;
+  margin-left: 25%;
+  margin-top: 5px;
+  color: crimson;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+}
+
+.my-img {
+  border: 5px solid white;
+  width: 70%;
+
+}
+.paragraph-size {
+  font-size: 25px; 
+}
+

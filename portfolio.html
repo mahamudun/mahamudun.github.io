@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--author: mahamudun sikder-->
+<head>
+  <title>Mahamud-Portfolio</title>
+ <link rel="stylesheet" href="portfolioStyle.css">
+    
+</head>
+<body>
+ 
+  <div class="container">
+    <div class="links">
+      <a href="./index.html">Home</a>
+      <a href="./aboutMe.html">About Me</a>
+      <a href="./hobby.html">Hobby</a>
+    </div>
+    <br>
+    <h1>My Portfolio</h1>
+    
+    <div class="profile-section">
+      <img src="./images/ms02.jpg" alt="Profile Picture" class="profile-picture" width="200" height="200">
+      <div class="name">Mahamud Sikder</div>
+    </div>
+    
+    <form>
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <label for="experience">Experience:</label>
+      <select id="experience" name="experience">
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+      </select>
+      
+      <label>Skills:</label><br>
+
+  
+      <table>
+        <tr>
+          <td>
+            <input type="checkbox" id="java" name="skills" value="java">
+            <label for="java">Java</label>
+          </td>
+          <td>
+            <input type="checkbox" id="python" name="skills" value="python">
+            <label for="python">Python</label>
+          </td>
+          <td>
+            <input type="checkbox" id="c#" name="skills" value="c#">
+            <label for="c#">C#</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" id="html" name="skills" value="html">
+            <label for="html">HTML</label>
+          </td>
+          <td>
+            <input type="checkbox" id="css" name="skills" value="css">
+            <label for="css">CSS</label>
+          </td>
+          <td>
+            <input type="checkbox" id="javascript" name="skills" value="javascript">
+            <label for="javascript">JavaScript</label>
+          </td>
+        </tr>
+      </table>
+      
+      <br>
+    
+      <label>Preferred contact method:</label><br>
+      <input type="radio" id="contact-email" name="contact" value="email">
+      <label for="contact-email">Email</label><br>
+      <input type="radio" id="contact-phone" name="contact" value="phone">
+      <label for="contact-phone">Phone</label><br>
+      <br>
+    
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </form>
+    <br>
+    <br>
+    <h2>Projects</h2>
+    <ul>
+      <li>Amazon</li>
+      <li>Hotwire</li>
+      <li>Costco</li>
+      <li>eBay</li>
+      <li>UPS</li>
+    </ul>
+    
+    <h2>Education</h2>
+    <table>
+      <tr>
+        <th>College</th>
+        <th>Degree</th>
+        <th>Year</th>
+      </tr>
+      <tr>
+        <td>BCC-CUNY, USA</td>
+        <td>Associate Degree</td>
+        <td>2004</td>
+      </tr>
+      <tr>
+        <td>BM College, BD</td>
+        <td>Bachelor's Degree</td>
+        <td>2000</td>
+      </tr>
+    </table>
+    
+  </div>
+</body>
+</html>
